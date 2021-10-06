@@ -1,6 +1,7 @@
 # flask_slider_form
 A simple example of using an HTML range slider to send values to a Flask server with no JavaScript using a form submit. This file is a starter challenge.
 Used for Google's Code Next **Team Edge Web** course. 
+### Term 1, Lab 3 Flask with Hardware
 
 ## Setup:
 1. Clone the project to a Raspberry Pi.
