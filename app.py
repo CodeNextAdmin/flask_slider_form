@@ -13,7 +13,14 @@ def test():
     # Send the data to the new route /test. 
     # Try changing it so it just moves a servo to the desired angle.
     # Make sure to validate degrees between 0 - 180.
-    return slider_value
+       
+    templateData ={
+
+        'slider_value': slider_value
+    }
+
+    
+    return render_template('index.html', **templateData) 
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
